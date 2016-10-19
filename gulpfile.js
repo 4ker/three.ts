@@ -12,7 +12,7 @@ const parallelize = require('concurrent-transform');
 const del = require('del');
 
 let paths = {
-    pages: ['src/*.html', 'src/*.css', 'src/*.png']
+    pages: ['src/*.html', 'src/*.css', 'src/*.js', 'src/*.png', 'jquery.min.js', 'three.min.js']
 };
 
 let watching = false;

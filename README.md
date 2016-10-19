@@ -1,26 +1,24 @@
 three.ts
 ---
 
-A Typescript 'Hello World' example project that utilizes Three.js and jQuery through DefinitelyTyped typings.
+TypeScript + Three.js + jQuery。
 
 [![Screenshot](http://three-ts.selby.io/screenshot.png)](http://three-ts.selby.io)
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/download/package-manager/)
-- [Gulp](http://gulpjs.com/)
-  - `npm install --global gulp-cli`
-- [TSD](http://definitelytyped.org/) (to manage Typings)
-  - `npm i -g tsd@next `
+-   [Node.js](https://nodejs.org/en/download/package-manager/)
+-   [Gulp](http://gulpjs.com/): `npm install --global gulp-cli`
+-   [TSD](http://definitelytyped.org/) (to manage Typings): `npm i -g tsd@next `
 
 ## Usage
 
 ### Setup
 
 ```bash
-git clone git@github.com:selbyk/three.ts.git
+git clone https://github.com/4ker/three.ts.git
 cd ./three.ts
-npm i
+npm install
 ```
 
 ### Start Auto-Refresh Build Process & Server
